@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'trckfit';
+    src: url('../fonts/trckfit.eot?i929ik');
+    src: url('../fonts/trckfit.eot?i929ik#iefix') format('embedded-opentype'),
+        url('../fonts/trckfit.ttf?i929ik') format('truetype'),
+        url('../fonts/trckfit.woff?i929ik') format('woff'),
+        url('../fonts/trckfit.svg?i929ik#trckfit') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+.tf {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'trckfit' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.tf-icon:before {
+    content: "\e900";
+}
